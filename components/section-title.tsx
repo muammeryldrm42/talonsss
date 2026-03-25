@@ -1,0 +1,2 @@
+import { ReactNode } from 'react';
+export function SectionTitle({eyebrow,title,description,action}:{eyebrow:string;title:string;description:string;action?:ReactNode}){return(<div className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between"><div className="max-w-2xl"><div className="mb-3 text-xs font-semibold uppercase tracking-[0.24em] text-brand2">{eyebrow}</div><h2 className="text-3xl font-semibold text-text sm:text-4xl">{title}</h2><p className="mt-3 text-base text-muted">{description}</p></div>{action}</div>)}
